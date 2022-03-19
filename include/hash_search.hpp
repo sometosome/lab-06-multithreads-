@@ -8,10 +8,8 @@
 #include <boost/log/expressions.hpp>
 #include <boost/log/sinks/text_file_backend.hpp>
 #include <boost/log/utility/setup/file.hpp>
-//#include <boost/log/utility/setup/formatter_parser.hpp>
 #include <boost/log/utility/setup/common_attributes.hpp>
 #include <boost/log/sources/severity_logger.hpp>
-//#include <boost/log/sources/record_ostream.hpp>
 #include <boost/log/utility/setup/console.hpp>
 #include <csignal>
 #include <thread>
@@ -21,8 +19,6 @@
 #include <iostream>
 #include <string>
 #include <nlohmann/json.hpp>
-
-#include "picosha2.h"
 
 struct hash_item {
   std::string hash_string;

@@ -4,7 +4,6 @@
 
 std::vector<hash_item> HashSearch::hash_list;
 bool HashSearch::flag;
-//std::vector<hash_item> items;
 
 void HashSearch::hash_counting() {
   unsigned int temp = abs(static_cast<int>(std::clock()));
