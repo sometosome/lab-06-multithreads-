@@ -1,6 +1,6 @@
 // Copyright 2021 Your Name <your_email>
 
-#include "hash_search.hpp"
+#include <hash_search.hpp>
 
 std::vector<hash_item> HashSearch::hash_list;
 bool HashSearch::flag;

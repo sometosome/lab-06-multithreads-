@@ -18,8 +18,7 @@
 #include <iostream>
 #include <string>
 #include <nlohmann/json.hpp>
-
-#include "./picosha2.h"
+#include <picosha2.h>
 
 struct hash_item {
   std::string hash_string;
