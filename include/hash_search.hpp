@@ -3,6 +3,7 @@
 #ifndef INCLUDE_HASH_SEARCH_HPP_
 #define INCLUDE_HASH_SEARCH_HPP_
 
+#include <picosha2.h>
 #include <boost/log/core.hpp>
 #include <boost/log/trivial.hpp>
 #include <boost/log/expressions.hpp>
@@ -18,7 +19,6 @@
 #include <iostream>
 #include <string>
 #include <nlohmann/json.hpp>
-#include <picosha2.h>
 
 struct hash_item {
   std::string hash_string;
