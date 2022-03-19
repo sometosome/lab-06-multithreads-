@@ -3,7 +3,7 @@
 #ifndef INCLUDE_HASH_SEARCH_HPP_
 #define INCLUDE_HASH_SEARCH_HPP_
 
-#include <picosha2.h>
+#include <../include/picosha2.h>
 #include <boost/log/core.hpp>
 #include <boost/log/trivial.hpp>
 #include <boost/log/expressions.hpp>
