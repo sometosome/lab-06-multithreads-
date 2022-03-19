@@ -60,7 +60,6 @@ void HashSearch::interrupt_handler(int interrupt) {
   flag = false;
 }
 
-
 auto example() -> void
 {
   throw std::runtime_error("not implemented");
